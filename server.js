@@ -17,6 +17,7 @@ app.use('/api/tips', require('./routes/tipsRoutes'));
 app.use('/api/resources', require('./routes/resourcesRoutes'));
 app.use('/api/community', require('./routes/communityRoutes')); 
 app.use('/api/crisis', require('./routes/crisisRoutes'));
+app.use('/api/progress', require('./routes/progressRoutes'));
 
 //app.use(require('./routes/publicRoutes')); FOR STATIC FILES , UI
 
